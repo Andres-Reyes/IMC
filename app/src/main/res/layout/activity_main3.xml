@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.imc.Main3Activity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20sp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="20sp"
+                android:paddingRight="10sp">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15sp"
+                    android:gravity="center"
+                    android:text="Tips de alimentación y de actividad física para mantener un buen estado de salud"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="#130000"
+                    android:textSize="23sp" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="209dp"
+                    android:layout_marginTop="15sp"
+                    android:gravity="center"
+                    app:srcCompat="@drawable/actividad" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15sp"
+                    android:gravity="center"
+                    android:text="Hacer ejercicio regularmente y llevar una dieta equilibrada son dos pilares fundamentales para evitar el sobrepeso y la obesidad, enfermedades muy comunes en nuestro tiempo, que son factores de riesgo para otras enfermedades, como diabetes, hipertensión arterial y otras alteraciones cardiovasculares."
+                    android:textColor="#130000"
+                    android:textSize="20sp"
+                    app:fontFamily="serif" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="366dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25sp"
+                    android:gravity="center"
+                    android:text="Dieta equilibrada"
+                    android:textColor="#0F0000"
+                    android:textSize="23sp"
+                    app:fontFamily="serif" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="361dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15sp"
+                    android:gravity="center"
+                    android:text="Ingerir alimentos variados, Se deben incluir alimentos de diferentes grupos en cada comida (proteínas, carbohidratos y lípidos), eligiendo siempre las opciones más saludables: carnes magras, cereales integrales, aceites vegetales, etc."
+                    android:textColor="#070000"
+                    android:textSize="20sp"
+                    app:fontFamily="serif" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:layout_marginTop="15sp"
+                    android:gravity="center"
+                    app:srcCompat="@drawable/marco" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15sp"
+                    android:gravity="center"
+                    android:text="Consumir frutas y verduras frescas. es necesario incluir cuatro porciones de frutas y cinco porciones de verduras (si son frescas, mejor) diariamente."
+                    android:textColor="#130000"
+                    android:textSize="20sp"
+                    app:fontFamily="serif" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15sp"
+                    android:gravity="center"
+                    android:text="Conozca cuántas calorías necesita y de qué tamaño deben ser las porciones."
+                    android:textColor="#0F0000"
+                    android:textSize="20sp"
+                    app:fontFamily="serif" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="221dp"
+                    android:layout_marginTop="15sp"
+                    android:gravity="center"
+                    app:srcCompat="@drawable/frutas" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15sp"
+                    android:gravity="center"
+                    android:text="Ejercicios"
+                    android:textColor="#130000"
+                    android:textSize="23sp"
+                    app:fontFamily="serif" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15sp"
+                    android:gravity="center"
+                    android:text="Realiza actividad física. Para mantener un peso saludable sin sacrificios es muy importante la práctica regular de ejercicio periódicamente; por ejemplo, dos o tres veces por semana con duración de 45 minutos cada día."
+                    android:textColor="#0F0000"
+                    android:textSize="20sp"
+                    app:fontFamily="serif" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15sp"
+                    android:gravity="center"
+                    app:srcCompat="@drawable/" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15sp"
+                    android:gravity="center"
+                    android:text="No dejes de comer lo que te gusta. Si el chocolate o los postres, por ejemplo, se han vuelto una debilidad, puedes consumirlo en ocasiones pero con moderación."
+                    android:textColor="#0F0000"
+                    android:textSize="20sp"
+                    app:fontFamily="serif" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="388dp"
+                    android:layout_marginTop="15sp"
+                    android:gravity="center"
+                    app:srcCompat="@drawable/chocolate" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
